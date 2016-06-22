@@ -16,10 +16,7 @@ $(document).ready(function()  {
   event.preventDefault();
 })
 
-
-
 // Back End Logic
-
 function PizzaOrder (customerFirst, customerLast, pizzaNumber, toppings, pizzaSize) {
   this.firstName = customerFirst;
   this.lastName = customerLast;
@@ -27,42 +24,6 @@ function PizzaOrder (customerFirst, customerLast, pizzaNumber, toppings, pizzaSi
   this.pizzaToppings = [toppings];
   this.pizzaSize = pizzaSize;
 }
-
-
 PizzaOrder.prototype.pizzaPrice = function (topping) {
   return this.numberOfPizzas * ((topping.length) * 1 + this.pizzaSize);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function  Address(street, city, state)  {
-//   this.street = street;
-//   this.city = city;
-//   this.state  = state;
-// }
-//
-//
-//
-//
-// PizzaOrder.prototype.fullAddress = function () {
-//   return this.street + ", " + this.city + ", " + this.state;
-// }
