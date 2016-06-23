@@ -12,9 +12,10 @@ Pizza Order
 
 |Behavior    |Input   |Output   |
 |---|---|---|
-| input name, toppings, size, and number for pizza order  |  |   |
-| put the information in to an object then run a function to return a price for the pizza's |  input | $50  |
-
+| input amount of pizza's  | input: 3 pizza's  | you get 3 pizza's  |
+| input the size of the pizza's you'd like |  input: medium | 3 medium pizza's |
+|  input the toppings on the pizza  | input: pepperoni cheese| 3 medium pepperoni cheese pizza's|
+|input your order and you get the price |input: 3 medium pepperoni and cheese pizza's| $18 |
 
 
 ## Setup/Installation Requirements
